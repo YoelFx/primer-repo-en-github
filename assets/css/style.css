@@ -15,9 +15,6 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: rgb(0, 0, 0);
 }
 
@@ -31,16 +28,14 @@ ul {
 
 .pizzaDot {
     color: rgb(165, 42, 42);
-    font-size: 35px;
-    padding-top: 20px;
-    margin: 10px;
-    text-align: center;
+    margin-top: 30px;
 }
 
 .logo {
-    width: 25px;
+    width: 28px;
     animation-name: logo;
     animation-duration: 3s;
+
 }
 
 @keyframes logo {
@@ -54,40 +49,25 @@ ul {
 
 }
 
-.navbar ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.nav ul {
+    margin-left: -25px;
 }
 
-.navbar a {
-    line-height: 25px;
+.nav a {
     color: rgb(255, 255, 255);
-    font-size: 15px;
 }
 
-.navbar .rojo {
+.nav .rojo {
     color: rgb(165, 42, 42);
 }
 
-ul li img {
-    width: 20px;
-    margin: 5px;
-}
-
 .horarios {
-    text-align: center;
     color: rgb(141, 141, 141);
-    font-size: 10px;
-    padding: 10px;
 }
 
 .mainTitulo {
     color: rgb(0, 0, 0);
-    text-align: center;
     background: linear-gradient(to bottom, black 1%, brown 20%);
-    padding: 7px;
-    font-size: 15px;
 }
 
 /* Inicio Index -------------------------------------------------------------------------*/
@@ -105,13 +85,8 @@ ul li img {
     padding: 10px;
 }
 
-.descripcionPizzas img {
-    width: 250px;
-    height: 150px;
-    margin: 10px;
-    padding: 2px;
-    border: 1px solid rgb(165, 42, 42, 1);
-    background: rgb(165, 42, 42, 1);
+.carousel-item img {
+    height: 250px;
 }
 
 
@@ -160,7 +135,7 @@ ul li img {
 .sabores1 div{
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 
@@ -175,7 +150,7 @@ ul li img {
 }
 
 .sabores1 p {
-    height: 90px;
+    height: 70px;
 }
 
 .sabores2 {
@@ -186,6 +161,7 @@ ul li img {
 .sabores2 div{
     display: flex;
     flex-direction: column;
+    margin-top: -30px;
 }
 
 .sabores2 h4 {
@@ -198,21 +174,21 @@ ul li img {
 }
 
 .sabores2 p {
-    height: 90px;
+    height: 70px;
 }
 
 
 .precios1 div {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: -10px;
 }
 
 .precios1 h6 {
     display: flex;
     word-spacing: 20px;
     margin: 20px 0px 0px -10px;
-    height: 103px;
+    height: 100px;
     font-size: 15px;
 }
 
@@ -221,13 +197,14 @@ ul li img {
     display: flex;
     flex-direction: column;
     margin-left: -13px;
+    margin-top: -35px;
 }
 
 .precios2 h6 {
     display: flex;
     word-spacing: 20px;
     margin: 20px 0px 0px -10px;
-    height: 102px;
+    height: 100px;
     font-size: 15px;
 }
 
@@ -407,6 +384,9 @@ ul li img {
     border-top: 2px solid rgb(165, 42, 42);
 }
 
+.footer img {
+    width: 20px;
+}
 
 .footer ul {
     display: flex;
@@ -433,7 +413,7 @@ ul li img {
         width: 20px;
     }
     
-    .navbar {
+    .nav {
         display: flex;
         background: rgba(0, 0, 0, 0.919);
         margin-bottom: 20px;
@@ -449,19 +429,17 @@ ul li img {
         margin-top: 10px;
     }  
 
-    .navbar ul {
+    .nav ul {
         display: flex;
-        flex-direction: row;
-        margin-left: 30px;
-        width: 70%;
-        justify-content: center;
+        justify-content:space-evenly;
+        margin-left: 0px;
     }
 
-    .navbar ul li {
+    .nav ul li {
         margin: 0 15px;
     }
 
-    .navbar ul li a {
+    .nav ul li a {
         font-size: 18px;
     }
 
@@ -515,9 +493,10 @@ ul li img {
     justify-content: center;
 }
 
-.descripcionPizzas img {
-    margin: 10px;
-    height: 150px;
+.carousel-item img {
+    max-width: 550px;
+    height: 350px;
+    margin-bottom: 15px;
 }
 
 /* @800 fin index -------------------------------------------------------------------------*/
@@ -564,7 +543,7 @@ ul li img {
 .sabores1 div{
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 
@@ -620,7 +599,7 @@ ul li img {
     display: flex;
     word-spacing: 65px;
     margin: 20px 0px 0px -10px;
-    height: 88px;
+    height: 107px;
     font-size: 20px;
 }
 
@@ -635,7 +614,7 @@ ul li img {
     display: flex;
     word-spacing: 65px;
     margin: 20px 0px 0px -10px;
-    height: 88px;
+    height: 106px;
     font-size: 20px;
 }
 
@@ -823,6 +802,7 @@ ul li img {
     align-items: center;
     flex-direction: row;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .footer ul li{
@@ -831,7 +811,8 @@ ul li img {
 }
 
 .contactoSvg {
-    margin-bottom: -2px;
+    margin-bottom: 4px;
+    margin-right: 8px;
 }
 
 }
@@ -847,7 +828,7 @@ ul li img {
         width: 30px;
     }
     
-    .navbar {
+    .nav {
         display: flex;
         background: rgba(0, 0, 0, 0.919);
         margin-bottom: 20px;
@@ -863,47 +844,23 @@ ul li img {
         margin-top: 10px;
         }  
 
-    .navbar ul {
+    .nav ul {
         display: flex;
-        flex-direction: row;
-        margin-left: 30px;
-    }
-
-    .navbar ul li a {
-        font-size: 20px;
-    }
-
-    .section {
-        margin: 5px 40px;
+        justify-content:space-evenly;
+        margin-left: 0px;
     }
 
     a {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-size: 25px;
     }
 
     ul {
         list-style: none;
     }
-
-    ul li img {
-        width: 20px;
-        margin: 5px;
-    }
     
     nav ul li a:hover {
         color: rgb(165, 42, 42);
-    }
-
-    .horarios {
-        text-align: center;
-        margin: -30px 0px 0px;
-        font-size: 13px;
-    }
-
-    .mainTitulo {
-        font-size: 25px;
     }
 
 
@@ -923,9 +880,9 @@ ul li img {
     justify-content: center;
 }
 
-.descripcionPizzas img {
-    margin: 47px 20px;
-    height: 150px;
+.carousel-item img {
+    max-width: 550px;
+    height: 350px;
 }
 
 /* @1200 fin index -------------------------------------------------------------------------*/
@@ -973,7 +930,7 @@ ul li img {
 .sabores1 div{
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 
@@ -1021,7 +978,7 @@ ul li img {
 .precios1 div {
     display: flex;
     flex-direction: column;
-    margin-top: 18px;
+    margin-top: 26px;
     font-size: 20px;
 }
 
@@ -1029,7 +986,7 @@ ul li img {
     display: flex;
     word-spacing: 77px;
     margin: 0px 0px 0px -10px;
-    height: 116px;
+    height: 133px;
 }
 
 .precios2 div {
@@ -1043,7 +1000,7 @@ ul li img {
     display: flex;
     word-spacing: 77px;
     margin: 0px;
-    height: 115px;
+    height: 132px;
 }
 
 .none {
@@ -1230,6 +1187,7 @@ ul li img {
     align-items: center;
     flex-direction: row;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .footer ul li{
@@ -1238,7 +1196,8 @@ ul li img {
 }
 
 .contactoSvg {
-    margin-bottom: -2px;
+    margin-bottom: 4px;
+    margin-right: 8px;
 }
 
 }
@@ -1253,7 +1212,7 @@ ul li img {
         width: 40px;
     }
     
-    .navbar {
+    .nav {
         display: flex;
         background: rgba(0, 0, 0, 0.919);
         margin-bottom: 20px;
@@ -1261,43 +1220,22 @@ ul li img {
     }
 
     .pizzaDot {
-        justify-content: center;
         color: rgb(165, 42, 42);
-        text-align:left;
-        font-size: 48px;
-        padding: 20px;
-        margin-top: 10px;
     }  
 
-    .navbar ul {
+    .nav ul {
         display: flex;
-        flex-direction: row;
-        margin-left: 30px;
-        width: 60%;
-        justify-content: center;
-    }
-
-    .navbar ul li a {
-        font-size: 25px;
-    }
-
-    .section {
-        margin: 5px 40px;
+        justify-content:space-evenly;
+        margin-left: 0px;
     }
 
     a {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-size: 25px;
     }
 
     ul {
         list-style: none;
-    }
-
-    ul li img {
-        width: 20px;
-        margin: 5px;
     }
     
     nav ul li a:hover {
@@ -1330,10 +1268,11 @@ ul li img {
     justify-content: center;
 }
 
-.descripcionPizzas img {
-    margin: 47px 20px;
-    height: 150px;
+.carousel-item img {
+    max-width: 550px;
+    height: 350px;
 }
+
 
 /* @1500 fin index ---------------------------------------------------------------------*/
 
@@ -1439,12 +1378,13 @@ ul li img {
     display: flex;
     flex-direction: column;
     font-size: 25px;
+    margin-top: 11px;
 }
 
 .precios1 h6 {
     display: flex;
     word-spacing: 40px;
-    height: 110px;
+    height: 129px;
     margin-left: -8px;
     width: 100%;
 }
@@ -1459,12 +1399,13 @@ ul li img {
     display: flex;
     flex-direction: column;
     font-size: 25px;
+    margin-top: -20px;
 }
 
 .precios2 h6 {
     display: flex;
     word-spacing: 40px;
-    height: 76px;
+    height: 94px;
     margin: 35px 0 0 30px;
     width: 100%;
 }
@@ -1595,7 +1536,7 @@ ul li img {
 
 .footer {
     display: flex;
-    height: 60px;
+    height: 40px;
     background: rgba(0, 0, 0, 0.919);
     border-top: 2px solid rgb(165, 42, 42);
 }
@@ -1606,6 +1547,7 @@ ul li img {
     align-items: center;
     flex-direction: row;
     font-size: 25px;
+    margin-top: 15px;
 }
 
 .footer ul li{
@@ -1614,7 +1556,8 @@ ul li img {
 }
 
 .contactoSvg {
-    margin-bottom: -2px;
+    margin-bottom: 4px;
+    margin-right: 8px;
 }
 
 /* @1500 Fin Footer ---------------------------------------------------------------------*/
