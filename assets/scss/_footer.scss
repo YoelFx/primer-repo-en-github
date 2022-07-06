@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.919);
+    border-top: 2px solid $colorprimario;
+}
+
+.footer img {
+    width: 20px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.footer ul li{
+    margin: 5px;
+    color: $colorterciario;
+}
+
+.contactoSvg {
+    margin: 0 3px -2px ;
+}
