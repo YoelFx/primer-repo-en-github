@@ -1,3 +1,11 @@
+@mixin preciosH6 {
+    display: flex;
+    word-spacing: 20px;
+    margin: 20px 0px 0px -10px;
+    height: 100px;
+    font-size: 15px;
+}
+
 .menu {
     display: grid;
     flex-direction: column;
@@ -83,11 +91,7 @@
 }
 
 .precios1 h6 {
-    display: flex;
-    word-spacing: 20px;
-    margin: 20px 0px 0px -10px;
-    height: 100px;
-    font-size: 15px;
+    @include preciosH6()
 }
 
 
@@ -99,11 +103,7 @@
 }
 
 .precios2 h6 {
-    display: flex;
-    word-spacing: 20px;
-    margin: 20px 0px 0px -10px;
-    height: 100px;
-    font-size: 15px;
+    @include preciosH6()
 }
 
 

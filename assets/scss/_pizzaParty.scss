@@ -13,47 +13,45 @@
 .pizzaPartyTarjetas {
     display: flex;
     flex-direction: column;
+    .tarjeta {
+        background: $colorsecundario;
+        margin: 15px;
+        color: $colorterciario;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        border: 2px solid $colorprimario;
+        h2 {
+            background: $colorprimario;
+            border-top-left-radius: 20px;
+            padding: 10px;
+            font-size: 25px;
+        }
+        h3 {
+            background:$colorprimario;
+            border-bottom-right-radius: 20px;
+            padding:15px;
+        }
+        .tituloVariedades {
+            margin: 10px;
+            font-size: 25px;
+            color: rgb(255, 63, 63);
+        }
+        .titulo {
+            margin: 10px;
+            font-size: 25px;
+            color: rgb(255, 63, 63);
+        }
+        .tituloDescripcion {
+            font-size: 20px;
+        }
+        img {
+            width: 250px;
+        }
+    }   
 }
 
-.tarjeta {
-    background: $colorsecundario;
-    margin: 15px;
-    color: $colorterciario;
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px;
-    border: 2px solid $colorprimario;
-}
 
-.pizzaPartyTarjetas img{
-    width: 250px;
-}
 
-.tarjeta h2 {
-    background: $colorprimario;
-    border-top-left-radius: 20px;
-    padding: 10px;
-    font-size: 25px;
-}
 
-.tarjeta h3 {
-    background:$colorprimario;
-    border-bottom-right-radius: 20px;
-    padding:15px;
-}
 
-.tituloVariedades {
-    margin: 10px;
-    font-size: 25px;
-    color: rgb(255, 63, 63);
-}
-
-.titulo {
-    margin: 10px;
-    font-size: 25px;
-    color: rgb(255, 63, 63);
-}
-
-.tituloDescripcion {
-    font-size: 20px;
-}
