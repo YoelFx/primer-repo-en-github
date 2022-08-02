@@ -1219,7 +1219,7 @@ ul {
   .tamaños {
     display: flex;
     font-size: 20px;
-    width: 350px;
+    width: 270px;
     margin: 25px 0px -30px -32px;
     word-spacing: 10px;
   }
@@ -1229,7 +1229,7 @@ ul {
     flex-direction: column;
     justify-content: flex-end;
     font-size: 20px;
-    width: 300px;
+    width: 250px;
     word-spacing: 25px;
     margin: 35px 0px 15px -20px;
   }
@@ -1317,26 +1317,31 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 0px 0px 0px -15px;
   }
 
   .precios2 div {
     display: flex;
     flex-direction: column;
     font-size: 25px;
-    margin-top: -20px;
+    margin: -20px 40px 0px -30px;
   }
 
   .precios2 h6 {
     display: flex;
     word-spacing: 40px;
     height: 94px;
-    margin: 35px 0 0 30px;
+    margin: 35px -50px 0px 20px;
     width: 100%;
   }
 
   .none {
     display: block;
   }
+
+  .precios2 .tamaños .none {
+    margin-right: 200px;
+    }
 
   /* @1500 Fin Menu -------------------------------------------------------------------------*/
   /* @1500 inicio Pizza party -------------------------------------------------------------- */
